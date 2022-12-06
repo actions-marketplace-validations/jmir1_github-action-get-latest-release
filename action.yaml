@@ -1,4 +1,4 @@
-name: 'Get Latest Release'
+name: 'Get Latest Release For a Repo'
 description: 'Get the latest release from another repository and output that for use in other actions'
 branding:
   icon: 'anchor'
