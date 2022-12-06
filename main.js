@@ -6,6 +6,7 @@ var owner = core.getInput('owner');
 var repo = core.getInput('repo');
 var excludes = core.getInput('excludes').trim().split(",");
 
+const myToken = core.getInput('myToken');
 const octokit = github.getOctokit(myToken);
 
 async function run() {
