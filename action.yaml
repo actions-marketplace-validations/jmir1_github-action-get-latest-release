@@ -4,6 +4,9 @@ branding:
   icon: 'anchor'
   color: 'orange'
 inputs:
+  myToken:
+    description: "GitHub Token"
+    required: true
   owner:
     description: 'The Github user or organization that owns the repository'
     required: false

@@ -11,13 +11,16 @@ jobs:
       - run: npm i
       - uses: ./
         with:
+            myToken: ${{ secrets.GITHUB_TOKEN }}
             repository: pozetroninc/github-action-get-latest-release
       - uses: ./
         with:
+            myToken: ${{ secrets.GITHUB_TOKEN }}
             owner: pozetroninc
             repo: github-action-get-latest-release
       - uses: ./
         with:
+            myToken: ${{ secrets.GITHUB_TOKEN }}
             owner: pozetroninc
             repo: github-action-get-latest-release
             excludes: prerelease, draft
